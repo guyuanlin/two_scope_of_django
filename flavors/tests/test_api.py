@@ -14,7 +14,7 @@ class FlavorAPITests(TestCase):
 		url = reverse("flavor_object_api")
 		response = self.client.get(url)
 		self.assertEquals(response.status_code, 200)
-		data = json.loads(response.content)$
+		data = json.loads(response.content)
 
 
 class DjangoRestFrameworkTests(TestCase):
