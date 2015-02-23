@@ -6,3 +6,5 @@ staticfiles
 *.sqlite3
 .DS_Store
 *.out
+htmlcov/
+.coverage
