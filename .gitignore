@@ -1,0 +1,8 @@
+env/
+logs/
+*.pyc
+*.swp
+staticfiles
+*.sqlite3
+.DS_Store
+*.out
